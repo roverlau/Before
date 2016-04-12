@@ -1,0 +1,24 @@
+//
+//  AllHeader.pch
+//  宅豆家居
+//
+//  Created by qianfeng on 15/10/25.
+//  Copyright (c) 2015年 qianfeng. All rights reserved.
+//
+
+#ifndef _____AllHeader_pch
+#define _____AllHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//矢量头文件
+#import "Vector.h"
+//网络接口
+#import "NetInterface.h"
+#import "UIImageView+WebCache.h"
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+#import "FMDatabase.h"
+#import "JSONModel.h"
+#import "UMSocial.h"
+#endif
